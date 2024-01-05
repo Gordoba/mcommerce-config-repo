@@ -4,6 +4,6 @@ spring.h2.console.enabled-true
 # Définir l'encodage pour data,sol
 spring.datasource.sql-script-encoding-UTF8
 # Les configurations externalisées
-management.endpoints.web.exposure.include=refresh , health
+management.endpoints.web.exposure.include=info ,refresh , health
 server.port=9001
 mes-config-ms.commandes-last=10
