@@ -1,14 +1,9 @@
-#server.port=9001
-#spring.jpa.show-sql=true
-#spring.h2.console.enabled=true
-
-
-
-#spring.datasource.driverClassName=org.h2.Driver
-#spring.datasource.username=oc
-#spring.datasource.password=GIT
-#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-#spring.jpa.hibernate.ddl-auto=none
-
-
- mes-config-ms.commandes-last=10
+# Configurations H2
+spring.jpa.show-sql=true
+spring.h2.console.enabled-true
+# Définir l'encodage pour data,sol
+spring.datasource.sql-script-encoding-UTF8
+# Les configurations externalisées
+management.endpoints.web.exposure.include=refresh , health
+server.port=9001
+mes-config-ms.commandes-last=10
